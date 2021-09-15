@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "baseUrl": "./src/",
+    "paths": {
+      "@src/*": ["./src/*"]
+    },
+    "noImplicitAny": true,
+    "removeComments": true,
+    "module": "ES6",
+    "target": "ES5",
+    "moduleResolution": "Node"
+  }
+}

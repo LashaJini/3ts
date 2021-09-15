@@ -1,0 +1,35 @@
+{
+  "name": "3ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "109149 <109149qwe@gmail.com> (http://109149.rocks/)",
+  "license": "MIT",
+  "scripts": {
+    "build:prod": "webpack --mode=production",
+    "build:dev": "webpack --mode=development",
+    "server:dev": "webpack serve --mode=development --host 0.0.0.0"
+  },
+  "dependencies": {
+    "dat.gui": "0.7.7",
+    "gsap": "3.7.1",
+    "three": "0.132.2"
+  },
+  "devDependencies": {
+    "@types/three": "0.131.1",
+    "clean-webpack-plugin": "4.0.0",
+    "copy-webpack-plugin": "9.0.1",
+    "css-loader": "6.2.0",
+    "file-loader": "6.2.0",
+    "html-loader": "2.1.2",
+    "html-webpack-plugin": "5.3.2",
+    "pug": "3.0.2",
+    "pug-loader": "2.4.0",
+    "raw-loader": "4.0.2",
+    "style-loader": "3.2.1",
+    "ts-loader": "9.2.5",
+    "typescript": "4.4.3",
+    "webpack": "5.52.1",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "3.11.2"
+  }
+}
